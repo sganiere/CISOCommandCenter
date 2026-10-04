@@ -14,7 +14,7 @@ Identify the kind of submission (risk acceptance, policy exception, new vendor/t
 
 1. **Doctrine** — risk appetite, non-negotiable controls, and the conditions for exceptions (e.g. named business owner, compensating control, expiry date). State plainly which conditions the submission meets and which it doesn't.
 2. **Philosophy** — test the submission against specific beliefs, cited by ID (B3, B7…), using each belief's "How it changes a decision" line. Cite only beliefs that actually bear on this; say "no belief applies" if none does. Never invent a belief the file doesn't contain.
-3. **Context** — which Risk Register entries, Regulatory Obligations, Goals, Strategies, Projects, and Technology gaps does it touch or contradict? Does it duplicate, depend on, or conflict with an existing project? Does it quietly worsen a known risk?
+3. **Context** — which Risk Register entries (note their Priority), Regulatory Obligations, Goals, Strategies, Projects, and Technology gaps does it touch or contradict? Does it duplicate, depend on, or conflict with an existing project? Does it quietly worsen a known risk?
 4. **Library** — anything in the consulted documents that bears on it.
 5. **Blind spots** — the CISO listed known biases in Doctrine. Check the submission against them explicitly and say if one is in play.
 

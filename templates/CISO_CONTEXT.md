@@ -44,11 +44,11 @@ Every line item below carries an ID, and a `[F]/[A]/[J]` tag: **F**act (verifiab
 | REG1 | FINMA / DORA / MAS / … | | Met / In progress / At risk / Overdue | | |
 
 ## Risk Register
-*(What the CISO is most worried about, in plain language)*
+*(What the CISO is most worried about, in plain language. Tag is how well-founded the claim is (F/A/J); Priority is the CISO's own High/Medium/Low call on how much it matters now — always a judgment.)*
 
-| ID | Risk | Tag | Linked Goal | Since |
-|----|------|-----|-------------|-------|
-| R1 | | F/A/J | G_ | |
+| ID | Risk | Tag | Priority | Linked Goal | Since |
+|----|------|-----|----------|-------------|-------|
+| R1 | | F/A/J | High / Medium / Low | G_ | |
 
 ## Doctrine
 *(The CISO's own operating rules — short, load-bearing, rarely changes)*

@@ -52,15 +52,15 @@ This file is edited in two ways only:
 | REG5 | Southeast Meridia Banking Authority (fictional) | Third-party risk assessment for critical vendors | At risk | 2027-01-31 | Vendor Risk Manager |
 
 ## Risk Register
-*(What the CISO is most worried about, in plain language)*
+*(What the CISO is most worried about, in plain language. Tag is how well-founded the claim is (F/A/J); Priority is the CISO's own High/Medium/Low call on how much it matters now — always a judgment.)*
 
-| ID | Risk | Tag | Linked Goal | Since |
-|----|------|-----|-------------|-------|
-| R1 | Single-vendor concentration risk on LedgerCore for core banking — no viable failover if the vendor has a major outage or breach | F | G4 | 2026-06-01 |
-| R2 | SOC coverage gap during APAC night hours before MSSP follow-the-sun contract is fully operational | F | G2 | 2026-08-15 |
-| R3 | Legacy on-prem mainframe components in payments processing lack modern EDR coverage | F | G3 | 2026-05-10 |
-| R4 | Believed but unconfirmed: several business units are using unsanctioned SaaS tools for client data, outside CASB visibility | A | G1 | 2026-09-01 |
-| R5 | Cloud security baseline rollout may slip past mid-2027 target given current engineering capacity | J | G3 | 2026-09-10 |
+| ID | Risk | Tag | Priority | Linked Goal | Since |
+|----|------|-----|----------|-------------|-------|
+| R1 | Single-vendor concentration risk on LedgerCore for core banking — no viable failover if the vendor has a major outage or breach | F | High | G4 | 2026-06-01 |
+| R2 | SOC coverage gap during APAC night hours before MSSP follow-the-sun contract is fully operational | F | High | G2 | 2026-08-15 |
+| R3 | Legacy on-prem mainframe components in payments processing lack modern EDR coverage | F | Medium | G3 | 2026-05-10 |
+| R4 | Believed but unconfirmed: several business units are using unsanctioned SaaS tools for client data, outside CASB visibility | A | Medium | G1 | 2026-09-01 |
+| R5 | Cloud security baseline rollout may slip past mid-2027 target given current engineering capacity | J | Medium | G3 | 2026-09-10 |
 
 ## Doctrine
 *(The CISO's own operating rules — short, load-bearing, rarely changes)*

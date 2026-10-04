@@ -24,7 +24,7 @@ If the input names a phase (e.g. `risks`, `philosophy`), start there. Otherwise,
 1. **Organization** — business model, sector, footprint, crown-jewel services and data, CISO mandate and reporting line, major service providers and outsourcing dependencies.
 2. **Mission and goals** — why the security function exists here (one sentence), then the top goals in priority order. Ask what the CISO would drop first if forced to — it exposes true priority. Then KPIs: a short, stable list with targets (not current values).
 3. **Regulatory obligations** — which regimes apply, what the obligation is, status, deadline, owner. Applicability and status only — not regulation text.
-4. **Risk register** — what keeps the CISO up at night, in plain language. For each: is it a known fact, an unconfirmed assumption, or a judgment? Which goal does it threaten?
+4. **Risk register** — what keeps the CISO up at night, in plain language. For each: is it a known fact, an unconfirmed assumption, or a judgment (Tag)? How much does it matter right now — High, Medium or Low (Priority, always a judgment)? Which goal does it threaten?
 5. **Doctrine** — risk appetite, non-negotiable controls, conditions for exceptions, build vs. buy vs. partner preference, and known biases or blind spots the CISO wants challenged. Press on the last one: ask for a concrete past mistake or recurring tendency, not a generic answer. These feed `/assess` and `/advise` directly.
 6. **Team** — names, function, key skills, location.
 7. **Technology and infrastructure** — cloud/on-prem split, migrations in progress, where crown-jewel data flows, known material gaps. Facts at the level risk reasoning needs, not a CMDB.
