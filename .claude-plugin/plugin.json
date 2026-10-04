@@ -1,0 +1,8 @@
+{
+  "name": "ciso-command",
+  "description": "A personal AI harness for CISOs: capture organizational context throughout the day with zero friction, distill it into a curated, tagged record, and generate accountable deliverables (board briefs, 1:1 updates, strategy checks) from that record.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Simon Ganiere"
+  }
+}

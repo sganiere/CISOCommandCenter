@@ -1,0 +1,13 @@
+{
+  "name": "ciso-command-marketplace",
+  "owner": {
+    "name": "Simon Ganiere"
+  },
+  "plugins": [
+    {
+      "name": "ciso-command",
+      "source": "./",
+      "description": "A personal AI harness for CISOs: capture context throughout the day, distill it into a curated record, and generate accountable deliverables."
+    }
+  ]
+}
