@@ -56,7 +56,7 @@ This file is edited in two ways only:
 
 | ID | Risk | Tag | Priority | Linked Goal | Since |
 |----|------|-----|----------|-------------|-------|
-| R1 | Single-vendor concentration risk on LedgerCore for core banking — no viable failover if the vendor has a major outage or breach | F | High | G4 | 2026-06-01 |
+| R1 | Single-vendor concentration risk on LedgerCore for core banking — no viable failover if the vendor has a major outage or breach | F | Medium | G4 | 2026-06-01 |
 | R2 | SOC coverage gap during APAC night hours before MSSP follow-the-sun contract is fully operational | F | High | G2 | 2026-08-15 |
 | R3 | Legacy on-prem mainframe components in payments processing lack modern EDR coverage | F | Medium | G3 | 2026-05-10 |
 | R4 | Believed but unconfirmed: several business units are using unsanctioned SaaS tools for client data, outside CASB visibility | A | Medium | G1 | 2026-09-01 |
