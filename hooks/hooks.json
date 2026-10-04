@@ -1,5 +1,5 @@
 {
-  "_comment": "Verify this schema against Claude Code's current hooks reference before relying on it — hook event names and structure are subject to change. Intent: on session start, if a workspace is configured, print CISO_CONTEXT.md so the CISO never has to say 'read my context file' — but exclude the Activity Log tail so a long history doesn't bloat every session's starting context.",
+  "_comment": "Verify this schema against Claude Code's current hooks reference before relying on it — hook event names and structure are subject to change. Intent: on session start, if a workspace is configured, print CISO_CONTEXT.md (minus the Activity Log tail), PHILOSOPHY.md (minus its Change Log), and the library INDEX.md — never the full library documents, which are opened on demand.",
   "hooks": {
     "SessionStart": [
       {
