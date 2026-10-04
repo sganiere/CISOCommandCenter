@@ -2,7 +2,7 @@
 
 This file is the inbox. It is never read top-to-bottom by the CISO and never scrolled — only appended to by `/capture` and consumed by `/distill`, which archives processed entries out of here once applied to CISO_CONTEXT.md.
 
-*Fictional worked example, for testing `/distill` against `CISO_CONTEXT_example.md`. A mix of low-stakes, load-bearing, and ambiguous entries on purpose — good for checking that the tiered confirmation rule actually behaves as designed.*
+*Fictional worked example, for testing `/distill` against `CISO_CONTEXT_example.md`. The last three entries exercise the newer pieces: one that should fold into an existing belief (B2) via `/belief`, one that belongs in the library via `/file`, and one that should be run through `/assess` rather than distilled. A mix of low-stakes, load-bearing, and ambiguous entries on purpose — good for checking that the tiered confirmation rule actually behaves as designed.*
 
 ---
 
@@ -13,3 +13,6 @@ This file is the inbox. It is never read top-to-bottom by the CISO and never scr
 - [2026-09-15 16:00] Board asked in yesterday's risk committee whether our risk appetite statement covers AI-driven fraud tools we're piloting — realized we don't actually have a documented position on this yet.
 - [2026-09-16 10:05] Quarterly phishing simulation results came back: 7.2% click rate, up from 4.8% last quarter. Worth flagging.
 - [2026-09-16 15:30] Random thought from a conference session — worth reading more about post-quantum readiness for SWIFT messaging, no immediate action.
+- [2026-09-17 08:50] Third time this quarter a business unit asked for an exception on a system that isn't in EDR or logging coverage. Realizing I keep saying yes with a promise to fix visibility later, and it never happens. Rule going forward: no exception on anything we can't see. (Candidate for a new belief — check against B2 before adding a duplicate.)
+- [2026-09-17 13:10] Finished the updated third-party exit-plan template with R. Chen — should live in the library so it's pulled in whenever we assess a vendor exception. Markdown copy at ~/work/exit-plan-template.md.
+- [2026-09-18 09:30] Head of Retail Lending sent a risk acceptance request for LedgerCore's hosted reporting module (customer PII outside our warehouse, no expiry, SOC 2 as the only evidence). Haven't decided — run through /assess before I respond. (See ASSESS_submission_example.md.)

@@ -64,12 +64,13 @@ This file is edited in two ways only:
 
 ## Doctrine
 *(The CISO's own operating rules — short, load-bearing, rarely changes)*
+*(Doctrine is the operational rule; the reasoning behind it lives in `PHILOSOPHY.md`, referenced here by belief ID. Longer reference documents live in `library/`.)*
 
-- **Risk appetite:** [J] Low tolerance for anything touching payment integrity or customer fund safety; moderate tolerance for operational friction in pursuit of faster secure delivery.
+- **Risk appetite:** [J] Low tolerance for anything touching payment integrity or customer fund safety; moderate tolerance for operational friction in pursuit of faster secure delivery. *(derives from B4)*
 - **Non-negotiable controls:** [J] MFA on all privileged access, encryption at rest and in transit for customer PII, no production database access without a ticketed, time-boxed approval.
-- **Conditions for exceptions:** [J] Exceptions require a named business owner, a compensating control, and an expiry date — no open-ended exceptions.
-- **Build vs. buy vs. partner preference:** [J] Buy for commodity security tooling (EDR, SIEM); build only where it's genuinely differentiating (fraud detection heuristics); partner for 24/7 coverage rather than building an in-house follow-the-sun SOC from scratch.
-- **Known biases / blind spots the CISO wants challenged:** [J] Tendency to over-trust vendor security attestations without independent verification; tendency to prioritize visible customer-facing risk over less visible internal/vendor risk.
+- **Conditions for exceptions:** [J] Exceptions require a named business owner, a compensating control, and an expiry date — no open-ended exceptions. *(derives from B3)*
+- **Build vs. buy vs. partner preference:** [J] Buy for commodity security tooling (EDR, SIEM); build only where it's genuinely differentiating (fraud detection heuristics); partner for 24/7 coverage rather than building an in-house follow-the-sun SOC from scratch. *(partner-for-coverage derives from B1)*
+- **Known biases / blind spots the CISO wants challenged:** [J] Tendency to over-trust vendor security attestations without independent verification; tendency to prioritize visible customer-facing risk over less visible internal/vendor risk. *(see B2, B4)*
 
 ## Strategies
 *(Each strategy should serve one or more goals above)*
